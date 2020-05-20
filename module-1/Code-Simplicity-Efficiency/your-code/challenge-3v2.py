@@ -7,5 +7,5 @@ def largest_side(x):
 
 
 a = input("What is the maximal length of the triangle side? Enter a number: ")
-print("The longest side possible is " + str(largest_side(int(a))))
+print("The longest side possible is", largest_side(a))
         
