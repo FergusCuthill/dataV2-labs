@@ -1,0 +1,22 @@
+Challenge 1 - What is the difference between expected value and mean?
+The two are similar. The probable values is the sum of the value times the probability for each possible outcome. The expected value is the probable mean result from undertaking the desired action infinite times. 
+The mean itself tends to refer to data already obtained and may vary from the expected result. 
+
+Challenge 2 - What is the "problem" in science with p-values?
+According to wikipedia, In statistical hypothesis testing, the p-value or probability value is the probability of obtaining test results at least as extreme as the results actually observed during the test, assuming that the null hypothesis is correct.
+The p-value is thus a means to decide if results are statistically significant. Often this is set at an arbitrary threshold such as 0.05. 
+Issues with p-values and common misconceptions include:
+1. Good results which show a connection are discarded as they fail to meet the threshold. 
+   A p-value above the threshold does not indicate that the null hypothesis is true. 
+2. Scientists choose methods designed to decrease p-value which may not be the most appropriate methods
+3. Discussions are skewed as papers meeting the threshold are promoted above those which do not. 
+4. 0.05 is a convention. It is an arbitrary divider and there is no reason to consider values on opisite sides of this threshold as different.
+5. p-values do not relate to the magnitude of the effect they describe. 
+6. multiple comparisons. From wikipedia, "if 20 independent tests are conducted at the 0.05 significance level and all null hypotheses are true, there is a 64.2% chance of obtaining at least one false positive and the expected number of false positives is 1 (i.e. 0.05 × 20)."
+
+Challenge 3 - Applying testing to a specific case: A/B testing.
+Took the basecamp example:
+As is noted in the article, undertaking A/B testing at the point of the redesign would have been ideal. 
+While it would be nice to test a range of options for the site, it is noted that the company is small and the resources available to the project were mroe limited than those available in the Netflix example. Therefore, at least as a starting point, I would have been inclined only to test the old version against the new though I might have considered looking into which factors (such as location of sign up page) might be influencing any results. 
+I would have conversion rate as my primary metric. 
+In this case, I'm not sure that I would have a particular threshold target. The aim here is to understand and quantify as accurately as possible the changes that the alterations to the website are likely to make. From this information, an informed decision can be made on whether to go ahead with the changes to the site or rethink them (especially true given the number of other factors involved including the rebranding etc). 
