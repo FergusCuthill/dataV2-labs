@@ -1,0 +1,28 @@
+---
+title: "Morning Workshop"
+author: "Fergus"
+date: "24 June 2020"
+output: html_document
+---
+
+```{r, echo=FALSE}
+# Importing Libraries
+library(caTools)
+library(questionr)
+library(car)
+
+spam_V2 <- read.csv("~/Work/Ironhack/dataV2-labs/module-2/R-Intro/spam7.csv", stringsAsFactors=FALSE)
+```
+
+## Look at the data
+Describe
+
+```{r}
+describe(spam_V2)
+```
+
+```{python}
+for i in range(1,11):
+  print(i)
+```
+

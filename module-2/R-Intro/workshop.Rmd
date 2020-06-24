@@ -1,0 +1,33 @@
+---
+title: "RMarkdown Project"
+author: "Fergus Cuthill"
+date: "24 June 2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# Project presentation
+## First example
+We are going to write numbers *from* **1 to 10**:
+
+```{python}
+for in in range(1,11):
+  print(i)
+```
+
+
+## Second example
+
+In this case, we're changing to R:
+
+```{r, echo=FALSE}
+s<-c(1,1,2,3,5,8,13,21,34)
+```
+
+And creating a plot:
+
+```{r}
+plot(s)
+```
+
